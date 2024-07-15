@@ -1,0 +1,13 @@
+name: base
+channels:
+  - http://mirrors.westlake.edu.cn/ANACONDA/pkgs/main
+  - http://mirrors.westlake.edu.cn/ANACONDA/pkgs/r
+  - http://mirrors.westlake.edu.cn/ANACONDA/pkgs/msys2
+  - default
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
